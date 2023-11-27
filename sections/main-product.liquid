@@ -433,6 +433,9 @@
               {% render 'icon-with-text',
                 block: block
               %}
+
+            {%- when 'z_countdown' -%}
+              {% render 'z-countdown' endTime: block.settings.endTime %}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -580,6 +583,19 @@
   "blocks": [
     {
       "type": "@app"
+    },
+    {
+      "type": "z_countdown",
+      "name": "倒计时",
+      "settings": [
+        {
+          "type": "text",
+          "id": "endTime",
+          "label": "倒计时时间",
+          "default": "2023-11-28T18:00:00+08:00",
+          "info":"默认时间 2023-11-28T18:00:00+08:00"
+        }
+      ]
     },
     {
       "type": "text",

@@ -1,0 +1,33 @@
+.z-countdown {
+  margin-bottom: 13px;
+}
+.z-countdown-text {
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.z-countdown .time-box div {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  color: #050000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: column;
+  flex-flow: column;
+  gap: 4px;
+  line-height: 1;
+  min-width: 60px;
+  padding: 10px;
+}
+.z-countdown .time-box div .time-num {
+  font-weight: 700;
+}
+.z-countdown .time-box div .time-text {
+  font-size: 12px;
+}
