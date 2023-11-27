@@ -39,6 +39,12 @@
             "show_gift_card_recipient": false
           }
         },
+        "bb462c22-7b0d-4e29-bd86-be7a35afdea2": {
+          "type": "z_countdown",
+          "settings": {
+            "endTime": "2023-11-28T01:03:00+08:00"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -59,6 +65,7 @@
         "quantity_selector",
         "price",
         "buy_buttons",
+        "bb462c22-7b0d-4e29-bd86-be7a35afdea2",
         "description",
         "share"
       ],
