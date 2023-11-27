@@ -69,9 +69,7 @@
             value: function () {
               var e = this.distance
               if (e <= 0)
-                return (
-                  this.stop(), void (this.countdownEl.style.display = 'none')
-                )
+                return this.stop(), void (this.container?.style?.display = 'none')
               var t = Math.floor(e / 864e5),
                 n = Math.floor((e % 864e5) / 36e5),
                 i = Math.floor((e % 36e5) / 6e4),
