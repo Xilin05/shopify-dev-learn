@@ -6,7 +6,7 @@
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-0": {
           "type": "heading",
           "settings": {
-            "heading": "Generated test data",
+            "heading": "测试更新数据，同步更新",
             "heading_size": "h1"
           }
         },
@@ -21,7 +21,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop products",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_link_1": "shopify://collections/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -34,11 +34,9 @@
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-1",
         "template--18309637636369__6a3bb789-ce10-45f5-ae67-e2063ef8c76b-168016437761699a6e-2"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
-        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+        "image": "shopify://shop_images/theme_cover_image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-left",
@@ -54,7 +52,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "<strong>Featured products<\/strong>",
+        "title": "<strong>Featured products</strong>",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
@@ -91,7 +89,7 @@
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Try our wax subscription so you can fly high, but never dry.<\/p>",
+            "text": "<p>Try our wax subscription so you can fly high, but never dry.</p>",
             "text_style": "body"
           }
         },
@@ -99,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "Get waxy now",
-            "button_link": "shopify:\/\/products\/selling-plans-ski-wax"
+            "button_link": "shopify://products/selling-plans-ski-wax"
           }
         }
       },
@@ -109,7 +107,7 @@
         "template--18309637636369__f1552b18-6017-4231-810d-74e61da22c37-1680164422d7fb2efc-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/theme_cover_image.jpg",
+        "image": "shopify://shop_images/theme_cover_image.jpg",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -144,7 +142,7 @@
         "template--18309637636369__38cdf60f-e431-43b5-aac3-7e6215447d67-1680164898782d94ce-1"
       ],
       "settings": {
-        "title": "<strong>Collections<\/strong>",
+        "title": "<strong>Collections</strong>",
         "heading_size": "h1",
         "image_ratio": "portrait",
         "columns_desktop": 2,
